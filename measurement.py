@@ -1,6 +1,6 @@
 def area(length, width=None):
     if not width:
-        return length
+        return length * length
     else:
         return length * width
 
